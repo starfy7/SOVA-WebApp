@@ -1,0 +1,12 @@
+﻿<!--<div data-bind="foreach: names">
+    <my-comp params="name: $data"></my-comp>
+</div>-->
+
+
+<ul class="list-group" data-bind="foreach: names">
+    <li class="list-group-item"  data-bind="click: $parent.selectName, css: { active: $parent.isSelected($data) }"><span data-bind="text: $data"></span></li>
+</ul>
+
+<div data-bind="text: message"></div>
+
+<!--<pre data-bind="text: ko.toJSON($data, null, 2)"></pre>-->

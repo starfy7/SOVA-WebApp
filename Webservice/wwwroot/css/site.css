@@ -1,0 +1,12 @@
+﻿.redtext {
+    color: red;
+}
+
+.btn-success {
+    background-color: aqua;
+    border: aqua 1px solid;
+}
+
+body {
+    padding-top: 70px;
+}
